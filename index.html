@@ -1,13 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ontdek De Solsleutel, een gezellige ontmoetingsplek voor de buurt.">
+  <meta name="description" content="Ontdek De Sol, een gezellige ontmoetingsplek voor de buurt.">
   <title>De Sol | Een café voor iedereen</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +18,8 @@
   <!-- Navigation -->
   <header class="header">
     <nav class="navbar container">
-      <a href="#home" class="logo">DE <span>SOLSLEUTEL.</span></a>
+
+      <a href="#home" class="logo">DE <span>SOL.</span></a>
 
       <button class="menu-toggle" id="menu-toggle"
         aria-label="Menu openen" aria-expanded="false">
@@ -26,69 +30,83 @@
 
       <ul class="nav-links" id="nav-links">
         <li><a href="#home">De Sol</a></li>
-        <li><a href="#over-ons">Over ons</a></li>
         <li><a href="#aanbod">Ons aanbod</a></li>
         <li><a href="#sfeer">Sfeer</a></li>
-        <li><a href="#contact" class="nav-button">Contact</a></li>
       </ul>
+
     </nav>
   </header>
 
   <main>
 
-    <!-- De Sol -->
-    <section class="hero" id="home">
-      <div class="hero-overlay"></div>
+    <!-- DE SOL: Homepage + About -->
+    <div id="home">
 
-      <div class="hero-content container">
-        <h1>De<br><span>Sol.</span></h1>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-overlay"></div>
 
-        <a href="#over-ons" class="button button-primary">
-          Over ons <span>→</span>
-        </a>
-      </div>
+        <div class="hero-content container">
+          <h1>De<br><span>Sol.</span></h1>
 
-      <div class="hero-bottom">
-        <a href="#over-ons">ONTDEK DE SOL ↓</a>
-      </div>
-    </section>
-
-    <!-- Over ons -->
-    <section class="about section-padding" id="over-ons">
-      <div class="container about-grid">
-
-        <div class="section-label">
-          <span>01 / OVER ONS</span>
-        </div>
-
-        <div class="about-content">
-
-          <h2>Waar mensen<br><span>elkaar ontmoeten.</span></h2>
-
-          <p>
-            Soms heb je niet meer nodig dan een gezellig café,
-            een lekker drankje en goed gezelschap.
+          <p class="hero-description">
+            Een plek om samen te komen, te genieten
+            en even helemaal tot rust te komen.
           </p>
 
-          <p>
-            De Solsleutel is een plek waar je even kan
-            ontspannen, bijpraten en genieten van het moment.
-            Of je nu langskomt voor een snelle koffie of een
-            gezellige avond: iedereen is welkom.
-          </p>
-
+          <a href="#intro" class="button button-primary">
+            Ontdek De Sol <span>→</span>
+          </a>
         </div>
 
-      </div>
-    </section>
+        <div class="hero-bottom">
+          <a href="#intro">ONTDEK ONS VERHAAL ↓</a>
+        </div>
+      </section>
 
-    <!-- Ons aanbod -->
+      <!-- Introduction / About -->
+      <section class="about section-padding" id="intro">
+        <div class="container about-grid">
+
+          <div class="section-label">
+            <span>WELKOM BIJ DE SOL</span>
+          </div>
+
+          <div class="about-content">
+
+            <h2>Waar mensen<br><span>elkaar ontmoeten.</span></h2>
+
+            <p>
+              Soms heb je niet meer nodig dan een gezellig café,
+              een lekker drankje en goed gezelschap.
+            </p>
+
+            <p>
+              De Sol is een plek waar je even kan ontspannen,
+              bijpraten en genieten van het moment.
+              Of je nu langskomt voor een snelle koffie of een
+              gezellige avond: iedereen is welkom.
+            </p>
+
+            <a href="#aanbod" class="text-link">
+              Ontdek ons aanbod <span>→</span>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 01: ONS AANBOD -->
     <section class="offer section-padding" id="aanbod">
       <div class="container">
 
         <div class="section-heading">
-          <p class="eyebrow">02 / ONS AANBOD</p>
+          <p class="eyebrow">01 / ONS AANBOD</p>
+
           <h2>Voor elk moment<br><span>iets lekkers.</span></h2>
+
           <p>
             Van een rustig koffiemoment tot een gezellige avond
             met vrienden.
@@ -143,11 +161,11 @@
       </div>
     </section>
 
-    <!-- Sfeer -->
+    <!-- 02: SFEER -->
     <section class="atmosphere section-padding" id="sfeer">
       <div class="container atmosphere-content">
 
-        <p class="eyebrow">03 / SFEER</p>
+        <p class="eyebrow">02 / SFEER</p>
 
         <h2>Goede momenten.<br><span>Goede mensen.</span></h2>
 
@@ -156,44 +174,9 @@
           en even te genieten van het leven.
         </p>
 
-        <a href="#contact" class="button button-outline">
-          Ontdek De Sol
+        <a href="#home" class="button button-outline">
+          Terug naar boven
         </a>
-
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="contact section-padding" id="contact">
-      <div class="container contact-grid">
-
-        <div>
-          <p class="eyebrow">04 / CONTACT</p>
-          <h2>Spring eens<br><span>binnen.</span></h2>
-          <p>
-            Zin in een drankje of een gezellig moment?
-            Je bent welkom bij De Solsleutel.
-          </p>
-        </div>
-
-        <div class="contact-details">
-
-          <div class="contact-item">
-            <span>LOCATIE</span>
-            <p>Adresgegevens volgen</p>
-          </div>
-
-          <div class="contact-item">
-            <span>OPENINGSUREN</span>
-            <p>Meer informatie volgt</p>
-          </div>
-
-          <div class="contact-item">
-            <span>CONTACT</span>
-            <p>Contactgegevens volgen</p>
-          </div>
-
-        </div>
 
       </div>
     </section>
@@ -202,12 +185,17 @@
 
   <!-- Footer -->
   <footer class="footer">
+
     <div class="container footer-content">
-      <a href="#home" class="logo">DE <span>SOLSLEUTEL.</span></a>
-      <span>© <span id="year"></span> De Solsleutel</span>
+      <a href="#home" class="logo">DE <span>SOL.</span></a>
+
+      <span>© <span id="year"></span> De Sol</span>
     </div>
 
-    <p class="demo-notice">Websiteconcept – niet de officiële website.</p>
+    <p class="demo-notice">
+      Websiteconcept – niet de officiële website.
+    </p>
+
   </footer>
 
   <script src="script.js"></script>
