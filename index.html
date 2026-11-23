@@ -4,15 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ontdek De Sol, een gezellige ontmoetingsplek voor de buurt.">
-  <title>De Sol | Een café voor iedereen</title>
+
+  <meta name="description" content="De Sol. Een gezellige plek om samen te komen, te genieten en even tot rust te komen.">
+
+  <title>De Sol | Een plek om samen te komen</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- Navigation -->
@@ -21,8 +25,12 @@
 
       <a href="#home" class="logo">DE <span>SOL.</span></a>
 
-      <button class="menu-toggle" id="menu-toggle"
-        aria-label="Menu openen" aria-expanded="false">
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Menu openen"
+        aria-expanded="false"
+      >
         <span></span>
         <span></span>
         <span></span>
@@ -39,40 +47,89 @@
 
   <main>
 
-    <!-- DE SOL: Homepage + About -->
-    <div id="home">
+    <!-- =========================
+         DE SOL / HOMEPAGE
+    ========================== -->
+
+    <section class="home-page" id="home">
 
       <!-- Hero -->
       <section class="hero">
-        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
 
-        <div class="hero-content container">
-          <h1>De<br><span>Sol.</span></h1>
+          <div class="hero-content">
 
-          <p class="hero-description">
-            Een plek om samen te komen, te genieten
-            en even helemaal tot rust te komen.
-          </p>
+            <p class="eyebrow">EEN PLEK OM SAMEN TE KOMEN</p>
 
-          <a href="#intro" class="button button-primary">
-            Ontdek De Sol <span>→</span>
-          </a>
-        </div>
+            <h1>De<br><span>Sol.</span></h1>
 
-        <div class="hero-bottom">
-          <a href="#intro">ONTDEK ONS VERHAAL ↓</a>
-        </div>
-      </section>
+            <p class="hero-description">
+              Een plek om samen te komen, te genieten
+              en even helemaal tot rust te komen.
+            </p>
 
-      <!-- Introduction / About -->
-      <section class="about section-padding" id="intro">
-        <div class="container about-grid">
+            <a href="#intro" class="button button-primary">
+              Ontdek De Sol <span>↓</span>
+            </a>
 
-          <div class="section-label">
-            <span>WELKOM BIJ DE SOL</span>
           </div>
 
+          <!-- Hero image placeholder -->
+          <div class="hero-image">
+
+            <div class="image-placeholder hero-placeholder">
+              <div class="placeholder-content">
+                <span class="placeholder-icon">✳</span>
+                <p>FOTO VAN DE SOL</p>
+                <span class="placeholder-note">
+                  Hier komt een sfeerbeeld van het café
+                </span>
+              </div>
+            </div>
+
+            <div class="hero-image-caption">
+              <span>DE SOL</span>
+              <span>GOEDE MOMENTEN BEGINNEN HIER</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hero-bottom container">
+          <a href="#intro">ONTDEK ONS VERHAAL ↓</a>
+        </div>
+
+      </section>
+
+      <!-- Introduction -->
+      <section class="about section-padding" id="intro">
+
+        <div class="container about-grid">
+
+          <!-- About image placeholder -->
+          <div class="about-image-wrapper">
+
+            <div class="image-placeholder about-placeholder">
+              <div class="placeholder-content">
+                <span class="placeholder-icon">✳</span>
+                <p>FOTO TOEVOEGEN</p>
+                <span class="placeholder-note">
+                  Een detail, interieur of gezellig moment
+                </span>
+              </div>
+            </div>
+
+            <span class="about-image-caption">
+              EEN PLEK VOOR IEDEREEN
+            </span>
+
+          </div>
+
+          <!-- About content -->
           <div class="about-content">
+
+            <p class="eyebrow">WELKOM BIJ DE SOL</p>
 
             <h2>Waar mensen<br><span>elkaar ontmoeten.</span></h2>
 
@@ -93,16 +150,23 @@
             </a>
 
           </div>
+
         </div>
+
       </section>
 
-    </div>
+    </section>
 
-    <!-- 01: ONS AANBOD -->
+    <!-- =========================
+         01 / ONS AANBOD
+    ========================== -->
+
     <section class="offer section-padding" id="aanbod">
+
       <div class="container">
 
         <div class="section-heading">
+
           <p class="eyebrow">01 / ONS AANBOD</p>
 
           <h2>Voor elk moment<br><span>iets lekkers.</span></h2>
@@ -111,6 +175,7 @@
             Van een rustig koffiemoment tot een gezellige avond
             met vrienden.
           </p>
+
         </div>
 
         <div class="offer-grid">
@@ -158,11 +223,17 @@
           </article>
 
         </div>
+
       </div>
+
     </section>
 
-    <!-- 02: SFEER -->
+    <!-- =========================
+         02 / SFEER
+    ========================== -->
+
     <section class="atmosphere section-padding" id="sfeer">
+
       <div class="container atmosphere-content">
 
         <p class="eyebrow">02 / SFEER</p>
@@ -175,10 +246,11 @@
         </p>
 
         <a href="#home" class="button button-outline">
-          Terug naar boven
+          Terug naar De Sol
         </a>
 
       </div>
+
     </section>
 
   </main>
@@ -187,9 +259,11 @@
   <footer class="footer">
 
     <div class="container footer-content">
+
       <a href="#home" class="logo">DE <span>SOL.</span></a>
 
       <span>© <span id="year"></span> De Sol</span>
+
     </div>
 
     <p class="demo-notice">
@@ -199,5 +273,6 @@
   </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
